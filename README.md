@@ -5,8 +5,12 @@ Framework is based on Rest assured and cucumber
 Cucumber 4.0 and above Java 8.0 and above
 
 # Usage
+clone the repo and do mvn clean install
+
 Test Runner file --> To execute an idividual or multiple test scenario, give the specific tag given in the feature files in the tags property
+
 features package --> BDD Test cases are stored under feature files
+
 StepDefinitions package --> BDD test step implementation are stored under corresponding step definition files
 
 # Execution on Local
