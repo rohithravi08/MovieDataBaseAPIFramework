@@ -21,7 +21,7 @@ docker build -t samplemaven:latest .
 
 docker run -it --name samplecontainer samplemaven:latest /bin/bash
 
-3) After running this command container will be started and you will be inside the /sample directory by default. Now run the command
+3)After running this command container will be started and you will be inside the /sample directory by default. Now run the command
 
 mvn clean test verify
 
